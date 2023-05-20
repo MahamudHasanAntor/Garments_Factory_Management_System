@@ -60,7 +60,6 @@ if(isset($_POST['add'])){
    }
 </style>
 <body>
-
     <div>
         <h2 >ADD Book</h2></br>
        <form action="add_employee_test.php" method="post" name="myForm" onsubmit="return validateForm()">
