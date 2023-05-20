@@ -59,17 +59,6 @@
       <h1 class="my-5 text-center">Sales Report</h1>
       <div class="row">
          <div class="col-md-6 offset-md-3">
-         <!-- create table sales( 
-        sale_id int NOT NULL PRIMARY KEY, 
-        sale_type varchar(255), 
-        sale_num int, 
-        sale_date varchar(50), 
-        sale_cus_id int , 
-        sale_desc varchar(255), 
-        sale_amt int, 
-        emp_id int Not Null, 
-        FOREIGN KEY (emp_id) REFERENCES employee(id) 
-        );  -->
             <form action="add_sale.php" method="post">
             <div class="form-group mb-3">
     <label for="sale_type">Sale Type</label>

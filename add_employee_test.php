@@ -36,16 +36,7 @@ if(isset($_POST['add'])){
 
        
         $query =  mysqli_query($conn, $insert);
-        // if($query)
-        // {
-        //    move_uploaded_file($bookimage_tmp_name,$bookimage_folder);
-        //    $message[] ='new product update successfully';
-        // }
-        // else{
-        //    $message[]='could not add product';
-        // }
-        // var_dump( $query);
-        // die();
+
          header('location:add_employee_test.php');
       }
    }
